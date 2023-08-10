@@ -6,7 +6,7 @@
  * Description: A C program that prints with pus function
  *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
