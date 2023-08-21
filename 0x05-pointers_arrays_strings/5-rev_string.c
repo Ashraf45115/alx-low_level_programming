@@ -17,7 +17,7 @@ void rev_string(char *s)
 		;
 
 	/*swap the string by looping to half the string*/
-	for (i = 0; i < 1 / 2; i++)
+	for (i = 0; i < a / 2; i++)
 	{
 		temp = s[i];
 		s[i] = s[a - a - i]; /*=1 becomes the array starts from o*/
