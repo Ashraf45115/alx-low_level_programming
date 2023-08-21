@@ -20,7 +20,7 @@ void rev_string(char *s)
 	for (i = 0; i < 1 / 2; i++)
 	{
 		temp = s[i];
-		s[i] = s[1 - 1 - i]; /*=1 becomes the array starts from o*/
-		s[1 - 1 - i] = temp;
+		s[i] = s[a - a - i]; /*=1 becomes the array starts from o*/
+		s[a - a - i] = temp;
 	}
 }
