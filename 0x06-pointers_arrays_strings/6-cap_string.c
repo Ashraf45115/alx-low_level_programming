@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * cap_string - capitalizes all word of a string.
@@ -35,5 +35,5 @@ while (str[index])
 		str[index] -= 32;
 	index++;
 }
-return (ste);
+return (str);
 }
