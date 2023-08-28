@@ -1,11 +1,10 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * *_menset - fille memory with a constant bytes.
+ * *_memset - fills memory with a constant bytes.
  * @s: pointer to put the constant
  * @b: constant
  * @n: max bytes to use
- *
  * Return: pointer s
 */
 
