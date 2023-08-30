@@ -50,7 +50,7 @@ int check(char *s, int start, int end, int mod)
 {
 	if ((start == end && mod != 0) || (start == end + 1 && mod == 0))
 		return (1);
-	else if ([start] != s[end])
+	else if (s[start] != s[end])
 		return (0);
 	else
 		return (check(s, start + 1, end - 1, mod));
