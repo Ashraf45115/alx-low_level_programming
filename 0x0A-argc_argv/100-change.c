@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 			money = money % cents[i];
 			if (money % cents[i] == 0)
 			{
-				braek;
+				break;
 			}
 		}
 	}
