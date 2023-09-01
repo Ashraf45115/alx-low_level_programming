@@ -51,8 +51,8 @@ int _atoi(char *s)
 /**
  * main - multiplies two numbers
  *
- * @margc: number of arguments
- * @margv: array of arguments
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
  * Return: 0 (Success), 1 (Error)
 */
@@ -73,5 +73,5 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", result);
 
-	return(0);
+	return (0);
 }
