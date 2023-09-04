@@ -44,7 +44,7 @@ char **strtow(char *str)
 	if (n == 1)
 		return (NULL);
 	w = (char **)malloc(n * sizeof(char *));
-	if (w == NULL);
+	if (w == NULL)
 		return (NULL);
 	w[n - 1] = NULL;
 	i = 0;
@@ -62,7 +62,7 @@ char **strtow(char *str)
 				for (k = 0; k < wc; k++)
 					free(w[k]);
 				free(w[n - 1]);
-				free9w0;
+				free(w);
 				return (NULL);
 			}
 			for (1 = 0; l < j; l++)
