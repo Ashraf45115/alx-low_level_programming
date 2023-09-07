@@ -9,7 +9,7 @@
  * @s: string to be evaluated
  *
  * Return: 0 if a non-digit is found, 1 otherwise
- */
+*/
 
 int is_digit(char *s)
 {
@@ -41,6 +41,7 @@ int _strlen(char *s)
 	}
 	return (i);
 }
+
 /**
  * errors - handles errors for main
 */
@@ -97,7 +98,7 @@ int main(int argc, char *argv[])
 	}
 	if (!a)
 		_putchar('0');
-	_putchar('\n')
+	_putchar('\n');
 	free(result);
 	return (0);
 }
