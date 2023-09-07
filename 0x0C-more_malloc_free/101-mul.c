@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - prints a string, follwed a new line,
+ * _puts - prints a string, followed a new line,
  * @str: pointer to the string to print
  * Return: void
 */
@@ -67,7 +67,7 @@ void print_int(unsigned long int n)
 }
 
 /**
- * main - print the result of the multipliction, followed by a new line
+ * main - print the result of the multiplication, followed by a new line
  * @argc: int
  * @argv: list
  * Return: 0
