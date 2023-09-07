@@ -8,7 +8,7 @@
  * @n: max bytes to use
  *
  * Return: s
-*/
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -27,7 +27,7 @@ char *_memset(char *s, char b, unsigned int n)
  * @size: size of each element
  *
  * Return: pointer
-*/
+ */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
