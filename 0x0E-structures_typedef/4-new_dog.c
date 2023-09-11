@@ -53,7 +53,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 
-	/* if name and owner are empty and age is less than sezo return null */
+	/* if name and owner are empty and age is less than zero return null */
 	if (!name || age < 0 || !owner)
 		return (NULL);
 
@@ -69,7 +69,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 
 	dog->owner = malloc(sizeof(char) * (strlen(owner) + 1));
-	if ((*dog).owne == NULL)
+	if ((*dog).owner == NULL)
 	{
 		free(dog->name);
 		free(dog);
