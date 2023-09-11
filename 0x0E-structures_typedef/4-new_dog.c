@@ -46,14 +46,14 @@ char *_strcopy(char *dest, char *src)
  * @owner: dog owner
  *
  * Return: struct pointer dog
- *	   NUll if function fails
+ *         NUll if function fails
 */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 
-	/* if name and owner are empty and age is less than zero return null */
+	/* if name and owner are empty and age is less than zero return null*/
 	if (!name || age < 0 || !owner)
 		return (NULL);
 
