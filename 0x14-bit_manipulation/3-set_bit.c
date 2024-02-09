@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * set_bet - a function that sets the value of a bit to 1 at a given index
+ * set_bit - a function that sets the value of a bit to 1 at a given index
  * @n: the number to index
  * @index: the bit to set
  * Return: 1 if successful, -1 on error
- */
+*/
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
