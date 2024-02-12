@@ -9,8 +9,8 @@
 /**
  * main - program
  * @ac: argument count
- * @av: argument vecoter
- * Return: 1 on seccess -1 onm error
+ * @av: argument vecitor
+ * Return: 1 on success 0 on failure
  */
 
 int main(int ac, char **av)
@@ -23,7 +23,7 @@ int main(int ac, char **av)
 		dprintf(STDERR_FILENO, USAGE), exit(97);
 	from_fd = open(av[1], O_RDONLY);
 	if (from_fd == -1)
-		dprintf(STD_FILENO, ERR_NOREAD, av[1]), exit(98);
+		dprintf(STDERR_FILENO, ERR_NOREAD, av[1]), exit(98);
 	to_fd = open(av[2], O_WRONLY | O_CRAET | O_TRUNC, PERMISSIONS);
 	if (to_fd == -1)
 		dprintf(STDERR_FILENO, ERR_NOWRITE, av[2]), exit(99);
