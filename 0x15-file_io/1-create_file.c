@@ -5,7 +5,6 @@
  * @s: the string
  * Return: integer length of string
  */
-
 int _strlen(char *s)
 {
 	int i = 0;
@@ -21,7 +20,7 @@ int _strlen(char *s)
  * create_file - a function that creates a file
  * @filename: name of the file to create
  * @text_content: text to write
- * Return: 1 on seccess 0 on failure
+ * Return: 1 on success 0 on failure
  */
 
 int create_file(const char *filename, char *text_content)
