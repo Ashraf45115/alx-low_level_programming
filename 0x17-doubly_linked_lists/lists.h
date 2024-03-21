@@ -9,7 +9,7 @@
  * @n: integer
  * @prev: points to the previous node
  * @next: points to the next node
- * Descrition: doubly linked list node structure
+ * Description: doubly linked list node structure
  * for Holberton project
 */
 typedef struct dlistint_s
