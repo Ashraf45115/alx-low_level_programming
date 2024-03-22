@@ -2,13 +2,13 @@
 
 /**
  * insert_dnodeint_at_index - inserts a new node in a dlistint_t
- * 			      list at a given position
- * @h: a pointer to the head of the dlistint_t list
- * @idx: the position to insert the new node
- * @n: the integer for the new node to contain
+ * 			      list at a given position.
+ * @h: a pointer to the head of the dlistint_t list.
+ * @idx: the position to insert the new node.
+ * @n: the integer for the new node to contain.
  *
  * Return: if the function fails - NULL.
- * 	   otherwise - the address of the new node
+ * 	   otherwise - the address of the new node.
 */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
@@ -21,7 +21,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	{
 		tmp = tmp->next;
 		if (tmp == NULL)
-			return (NULL)
+			return (NULL);
 	}
 
 	if (tmp->next == NULL)
