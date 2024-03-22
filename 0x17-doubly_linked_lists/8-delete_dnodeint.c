@@ -3,11 +3,11 @@
 /**
  * delete_dnodeint_at_index - Delete a node from a dlistint_t
  * 			      at a given index.
- * @head: a pointer to the head of the dlistint_t
- * @index: the index of the node to delte
+ * @head: A pointer to the head of the dlistint_t.
+ * @index: The index of the node to delte.
  *
- * Return: upon success - 1.
- * 	   otherwise - -1.
+ * Return: Upon success - 1.
+ * 	   Otherwise - -1.
 */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
@@ -22,6 +22,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 			return (-1);
 		tmp = tmp->next;
 	}
+
 	if (tmp == *head)
 	{
 		*head = tmp->next;
